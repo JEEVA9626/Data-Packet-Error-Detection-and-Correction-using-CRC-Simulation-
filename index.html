@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRC Error Detection and Correction</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>CRC Error Detection and Correction</h1>
+    <div class="container">
+        <div class="input-group">
+            <label for="data">Enter Data:</label>
+            <input type="text" id="data" placeholder="Enter binary data">
+        </div>
+        <div class="input-group">
+            <label for="divisor">Enter Divisor:</label>
+            <input type="text" id="divisor" placeholder="Enter binary divisor">
+        </div>
+        <button id="calculate-btn">Calculate CRC</button>
+        <button id="simulate-error-btn">Simulate Error</button>
+        <button id="check-error-btn">Check Error</button>
+        <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
